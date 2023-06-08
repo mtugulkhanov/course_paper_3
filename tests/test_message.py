@@ -1,4 +1,4 @@
-import cw3.message
+from cw3 import message
 
 def test_get_message():
     operation_1 = {

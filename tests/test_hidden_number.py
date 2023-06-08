@@ -1,4 +1,4 @@
-import cw3.hidden_number
+from  cw3 import hidden_number
 
 def test_format_from_account():
     assert hidden_number.format_from_account('Счет 1234567890123456') == 'Счет 1234 56** **** 3456'

@@ -1,4 +1,4 @@
-import cw3.format_date
+from cw3 import format_date
 
 def test_format_date():
     formatted_date = format_date.format_date('2023-05-20T08:30:00')

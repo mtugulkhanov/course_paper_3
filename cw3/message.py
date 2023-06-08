@@ -3,8 +3,8 @@ from cw3 import format_date
 
 def get_message(operation):
     '''
-    Функция создаст структуру выводящего сообщения
-    :param operation: Работаем со словарём файла operations.json
+    Функция создает структуру выводящего сообщения
+    :param operation: Работа со словарём файла operations.json
     :return: Готовое сообщение с данными
     '''
     date = format_date.format_date(operation['date'])

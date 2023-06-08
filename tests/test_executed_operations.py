@@ -1,5 +1,5 @@
 import pytest
-import cw3.executed_operations
+from cw3 import executed_operations
 @pytest.fixture
 def operation_list():
     return [
